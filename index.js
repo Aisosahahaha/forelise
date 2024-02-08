@@ -298,7 +298,7 @@ function blowOutCandle() {
     });
     console.log(`$amtPutOut`, amtPutOut);
     if (allActiveFlames.length === amtPutOut) {
-        message.innerHTML = "Happy Birthday Elis<br><br>Have a great 19th. So glad to see your growth and I pray nothing brings you down. I wish you all the best. Love you fr 🙏🏾💞";       
+        message.innerHTML = "Happy Birthday Elise <br><br>Have a great 19th. So glad to see your growth and I pray nothing brings you down. I wish you all the best. Love you fr 🙏🏾💞";       
         music.play();
     }
 }
