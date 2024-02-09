@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./index.css">
     <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
     <script defer src="./index.js">
     </script>
 </head>
@@ -24,6 +25,7 @@
 
     <p id="message"></p>
 
+    <div id="tsparticles"></div>
     <div id="birthdayCakeCont" style="display: none;">
         <div class="cake">
             <div class="middle"></div>
@@ -36,9 +38,7 @@
         </div>
     </div>
 
-    <div id="tsparticles"></div>
-    <button onclick="togglePlayPause();">Click</button>
-    <audio id="music" src="C:\Users\lilfo\Downloads\birthdayCake comp\Justin_Timberlake_-_Mirrors.mp3" autoplay></audio>
+    <button id="play" onclick="togglePlayPause();" style="float: right">▶️</button>
 </body>
 
 </html>
