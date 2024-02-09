@@ -172,11 +172,7 @@ function togglePlayPause() {
     console.log(`$amtPutOut`, amtPutOut);
     if (allActiveFlames.length === amtPutOut) {
         message.innerHTML = "Happy Birthday Elise<br><br>May the joy you spread daily multiply and come back to you. Have a great 19th and more. You're beautiful, talented, awesome and I pray nothing brings you down. I wish you all the best. Love you fr 🙏🏾💞. Stay Blessed To-funkle! 🗣️ ";       
-        
-        
     }
 
           
     }
-
-
