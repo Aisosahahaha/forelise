@@ -45,6 +45,18 @@ button {
     vertical-align: middle;
 }
 
+#play{
+    background-color: #87ae73;
+        color: white;
+        border-radius: 10px;
+        position: fixed;
+        left: 30px;
+        bottom: 30px;
+        width: 40px;
+        height: 20px;
+        padding: 0px;
+}
+
 .button:hover,
 .button:active {
     background-color: initial;
@@ -62,14 +74,21 @@ h1 {
 }
 
 #message {
-    position: fixed;
-    top: 0;
-    left: 50%;
+    padding: 20px;
+            margin: 50px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: -7.5%;
+    left: 40%;
     translate: -50%;
     padding: 1rem;
+    font-family: roboto, "proxima nova";
     font-style: italic;
     font-size: 24px;
     color: #87ae73;
+    
 }
 
 #spawnPoint,
@@ -306,6 +325,7 @@ h1 {
     opacity: 1;
     animation: putFlameOut 600ms forwards;
 }
+
 
 @keyframes flame {
 
